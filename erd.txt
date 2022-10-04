@@ -1,0 +1,8 @@
+For my 1:1 relationship my users table has unique constraints for email 
+and phone number.
+
+For a 1:Many relationship on my users table city, state and postal code which can be assigned to 
+multiple users. 
+
+For my Many:Many the users table connects to the cattle table through the user_id and the cattle
+table connects to the products table where the cattle_id connects to the product_id.
